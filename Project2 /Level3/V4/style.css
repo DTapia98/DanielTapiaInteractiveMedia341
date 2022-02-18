@@ -11,7 +11,11 @@ div.b {
 
 .div1 {
     padding: 10px;
+<<<<<<< HEAD
     border: 6px solid blue;
+=======
+    border: 3px solid blue;
+>>>>>>> bd428c260bf180da2a16792135336badcb8ca305
     float: left;
 } 
 
@@ -21,6 +25,7 @@ div.b {
         clear: left;
 }
 
+<<<<<<< HEAD
 .div3 {
     padding: 20px;
     border: 6px solid blue;
@@ -28,6 +33,8 @@ div.b {
     width: auto;
 } 
 
+=======
+>>>>>>> bd428c260bf180da2a16792135336badcb8ca305
 p.uppercase {
     text-transform: uppercase;
   }

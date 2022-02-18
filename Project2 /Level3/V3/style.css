@@ -1,6 +1,7 @@
 padding 
 margin
 
+<<<<<<< HEAD
 body {
 width: 500vw;    
 }
@@ -21,6 +22,20 @@ width: 500vw;
     margin-right: 300px;
     border: 3px solid red;
     display: inline-block;
+=======
+div.a {
+    transform: rotate(20deg);
+}
+
+div.b { 
+    display:inline-block
+}
+
+.div1 {
+    padding: 10px;
+    border: 3px solid blue;
+    float: left;
+>>>>>>> bd428c260bf180da2a16792135336badcb8ca305
 } 
 
 .div2 {
@@ -32,5 +47,8 @@ width: 500vw;
 p.uppercase {
     text-transform: uppercase;
   }
+<<<<<<< HEAD
 
   .hor{ width: 500vw;}
+=======
+>>>>>>> bd428c260bf180da2a16792135336badcb8ca305
