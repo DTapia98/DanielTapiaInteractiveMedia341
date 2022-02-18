@@ -1,0 +1,36 @@
+padding 
+margin
+
+body {
+width: 500vw;    
+}
+.diva {
+    transform: rotate(90deg);
+}
+
+.divb { 
+    display:inline-block
+}
+
+.divc { 
+    transform: rotate(180);
+}
+
+.div1 {
+    padding: 30px;
+    margin-right: 300px;
+    border: 3px solid red;
+    display: inline-block;
+} 
+
+.div2 {
+        padding: 10px;
+        border: 3px solid red;
+        clear: left;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+  }
+
+  .hor{ width: 500vw;}

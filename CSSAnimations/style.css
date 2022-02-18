@@ -1,0 +1,32 @@
+.heading {
+  color: black;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.heading:hover {
+  color: red;
+  font-size: 25px;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+} 
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width 2s, height 4s;
+  }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: darkolivegreen;
+  border-radius: 50%;
+  transition: width 2s linear 1s;
+}
