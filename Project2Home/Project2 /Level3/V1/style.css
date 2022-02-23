@@ -1,0 +1,30 @@
+
+div.a {
+    width: 150px;
+    height: 80px;
+    padding: 20px;
+    border: black;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(90deg);
+  }
+
+div.b { 
+    width: 150px;
+    height: 80px;
+    padding: 20px;
+    border: black;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(-90deg);
+}
+
+div.c {
+    border-style: dotted;
+    border-color: salmon;
+    border-width: 6px;
+    padding: 10px;
+}
+
+#hor {
+    display: inline-block;
+    width: 300%;
+}
