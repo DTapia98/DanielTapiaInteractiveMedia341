@@ -1,0 +1,48 @@
+
+h1 {
+    font-family: Futura, 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color:crimson;
+    color: gainsboro;
+}
+
+div.a {
+    border-style: dashed;
+    border-width: 20px;
+    border-color:linen;
+    width: 50%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    float: right;
+}
+
+div.b {
+    border-style: dashed;
+    border-width: 20px;
+    border-color: linen;
+    width: 50%;
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.bold {
+    font-family: Futura, 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.fun {
+    height: 400px;
+}
+
+.fun2 {
+    height: 400px;
+    margin-left: 75%;
+}

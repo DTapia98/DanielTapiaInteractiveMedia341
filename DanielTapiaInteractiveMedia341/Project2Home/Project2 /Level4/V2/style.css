@@ -1,0 +1,54 @@
+
+.container {
+    width:auto;
+    height:250px;
+    background-color:powderblue;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#leftbox {
+    float:left;
+    width: 300px;
+    height:auto;
+    background-color:white;
+    border:solid black;
+    border-style:double;
+    border-width: 6px;
+    text-align: center;
+}
+#centerbox {
+    float:left;
+    width: 300px;
+    height:auto;
+    background-color:white; 
+    border:solid black;
+    border-style:double;
+    border-width: 6px;
+    text-align: center;
+    margin-left:225px;
+}
+#rightbox {
+    float:right;
+    width: 300px;
+    height:auto;
+    background-color:white;
+    border:solid black;
+    border-style:double;
+    border-width: 6px;
+    text-align: center;
+}
+h1 {
+    color:dodgerblue;
+    height: 100px;
+}
+p {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.poet {
+    text-align: center;
+    margin-top: 100px;
+}

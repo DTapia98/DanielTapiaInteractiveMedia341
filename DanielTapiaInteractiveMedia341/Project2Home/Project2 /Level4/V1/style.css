@@ -1,0 +1,60 @@
+div.a {
+    
+    font-style:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:
+    font-size
+    text-align
+    line-height
+    letter-spacing
+    text-transform
+    opacity
+    color (for changing type color)
+    background-color
+    z-index
+}
+
+#leftbox {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float:left; 
+    background:salmon;
+    width:25%;
+    height:500px;
+}
+#middlebox{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    float:left; 
+    background:darkblue;
+    width:50%;
+    height:500px;
+}
+#rightbox{
+    float:right;
+    background:firebrick;
+    width:25%;
+    height:500px;
+}
+h1{
+    color:rgb(19, 19, 59);
+    text-align:center;
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.text{
+    color: whitesmoke;
+    font-family: Montserrat, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.marq{
+    height:100px;
+    text-align:center;
+}
+
+.poet {
+    text-align: center;
+    margin-top: 10px;
+}

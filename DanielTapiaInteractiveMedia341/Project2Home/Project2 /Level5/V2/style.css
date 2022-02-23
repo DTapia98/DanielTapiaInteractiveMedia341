@@ -1,0 +1,42 @@
+
+h1 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ivory;
+    text-align: center;
+}
+
+.chor:hover { 
+    transform: scale(2,2);
+    color: ivory;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+p {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color:deeppink;
+    font-size: 60px;
+    text-align: right;
+    text-transform: capitalize;
+    width: auto;
+}
+
+.crash {
+    font-family: Futura, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:ivory;
+    font-size: 60px;
+    text-transform: lowercase;
+    float: left;
+    width: auto;
+}
+
+.chor {
+    font-family: Didot, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size:18px;
+}

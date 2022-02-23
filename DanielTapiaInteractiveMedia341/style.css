@@ -1,0 +1,33 @@
+
+body {
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+}
+
+a {
+    color: darksalmon;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+div {
+    color: darksalmon;
+    display: inline-block;
+}
+h1 {
+    font-family: Futura, Helvetica, sans-serif;
+    font-size: 72px;
+    color: oldlace;
+}
+
+h2 {
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: oldlace;
+}
+
+h3 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 20px;
+    color:dodgerblue; 
+}
