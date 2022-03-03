@@ -1,0 +1,26 @@
+
+body {
+    background-color: rgb(31, 31, 31);
+    text-align:left;
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: oldlace;
+    line-height: 1.6;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    font-family: Futura, Helvetica, sans-serif;
+    font-size: 72px;
+    color: oldlace;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: oldlace;
+    text-align: center;
+}
