@@ -1,0 +1,58 @@
+
+body {
+    background-color:rgb(0, 0, 255);
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+  }
+
+.container1 {
+    display: block;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.diva {
+    display: inline-block;
+}
+
+.divb {
+    display: inline-block;
+    position: relative;
+    right: 10px;
+}
+
+.divc {
+    display: inline-block;
+    position: relative;
+    right: 10px;
+}
+
+
+#contentContainer {
+    width: auto;
+    height: auto;
+    overflow: hidden; 
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    background-color:azure;
+    border-radius: 50%;
+    
+    transform: translate3d(50px, 50px, 0);
+    transition: transform .3s ease-in;
+}
+
+#bucket {
+    width: 150px;
+    height: 150px;
+    background-color:black;
+}

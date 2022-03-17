@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Project 3</title>
+  </head>
+  <body>
+
+    <div id="contentContainer">
+      <div id="ball"></div>
+    
+
+      <script>
+        var theBall = document.querySelector("#ball");
+        var container = document.querySelector("#contentContainer");
+
+        container.addEventListener("click", getClickPosition, false);
+
+        function getClickPosition(e) {
+          var parentPosition = getPosition(container);
+
+          var xPosition = e.clientX - parentPosition.x - (theBall.offsetWidth / 2);
+          var yPosition = e.clientY - parentPosition.y - (theBall.offsetHeight / 2); 
+
+          var translate3dValue = "translate3d(" + xPosition + "px," + yPosition + "px,0)";
+          theBall.style.transform = translate3dValue;
+        }
+
+          function getPosition(el) {
+            var xPosition = 0;
+            var yPosition = 0;
+          
+            while (el) {
+              xPosition += (el.offsetLeft - el.scrollLeft + el.clientLeft);
+              yPosition += (el.offsetTop - el.scrollTop + el.clientTop);
+              el = el.offsetParent;
+            }
+            return {
+              x: xPosition,
+              y: yPosition
+            };
+          }
+
+      </script>
+
+        <br>
+        <div class="diva"><img src="elements/Cleat2.svg" alt="Cleat2 SVG"/></div>
+        <div class="diva"><img src="elements/Money.svg" alt="Money SVG"/></div>
+        <div class="diva"><img src="elements/Relationship.svg" alt="Relationship SVG"/></div>
+        <div class="diva"><img src="elements/Drugs.svg" alt="Drugs SVG"/></div>
+        <div class="diva"><img src="elements/Injury.svg" alt="Injury SVG"/></div>
+        <div class="diva"><img src="elements/Cleat.svg" alt="Cleat SVG"/></div>
+        <br>
+
+        <br>
+        <div class="divb"><img src="elements/Cleat2.svg" alt="Cleat2 SVG"/></div>
+        <div class="divb"><img src="elements/Relationship.svg" alt="Relationship SVG"/></div>
+        <div class="divb"><img src="elements/Injury.svg" alt="Injury SVG"/></div>
+        <div class="divb"><img src="elements/Money.svg" alt="Money SVG"/></div>
+        <div class="divb"><img src="elements/Drugs.svg" alt="Drugs SVG"/></div>
+        <div class="divb"><img src="elements/Relationship.svg" alt="Relationship SVG"/></div>
+        <div class="divb"><img src="elements/Cleat.svg" alt="Cleat SVG"/></div>
+        <br>
+
+        <br>
+        <div class="diva"><img src="elements/Cleat2.svg" alt="Cleat2 SVG"/></div>
+        <div class="diva"><img src="elements/Drugs.svg" alt="Drugs SVG"/></div>
+        <div class="diva"><img src="elements/Injury.svg" alt="Injury SVG"/></div>
+        <div class="diva"><img src="elements/Relationship.svg" alt="Relationship SVG"/></div>
+        <div class="diva"><img src="elements/Money.svg" alt="Money SVG"/></div>        
+        <div class="diva"><img src="elements/Cleat.svg" alt="Cleat SVG"/></div>
+        <br>
+
+        <br>
+        <div class="divc"><img src="elements/Cleat2.svg" alt="Cleat2 SVG"/></div>
+        <div class="divc"><img src="elements/Relationship.svg" alt="Relationship SVG"/></div>
+        <div class="divc"><img src="elements/Money.svg" alt="Money SVG"/></div>
+        <div class="divc"><img src="elements/Injury.svg" alt="Injury SVG"/></div>
+        <div class="divc"><img src="elements/Drugs.svg" alt="Drugs SVG"/></div>   
+        <div class="divc"><img src="elements/Money.svg" alt="Money SVG"/></div>     
+        <div class="divc"><img src="elements/Cleat.svg" alt="Cleat SVG"/></div>
+        <br>
+
+        <br>
+        <div id="bucket" class="diva"></div>
+        <div id="bucket" class="diva"></div>
+        <div id="bucket" class="diva"></div>
+        <div id="bucket" class="diva"></div>
+        <div id="bucket" class="diva"></div>
+
+    </div>
+
+  </body>
+</html>
+</html>
